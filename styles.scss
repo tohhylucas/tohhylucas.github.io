@@ -524,20 +524,18 @@ div.project-text {
   section.view-projects {
     position: relative;
     width: 20vw;
-    bottom: 30vh;
     left: 40vw;;
+    bottom: 30vh;
 
     
   }
 
   footer.contact-icons {
-    position: relative;
-    right: 9vh;
-    bottom: 10vh;
 
     li {
       width: 0;
-      margin: 50px;
+      margin-right: 5vw;
+      margin-left: 0;
     }
     
 
@@ -550,48 +548,70 @@ div.project-text {
     font-size: x-large;
 
     div.school {
-      clear: left;
+
+      div {
+        display:inline-block;
+        width: 45%;
+      }
 
       img {
-        width: 30% !important;
-        float: left;
+        margin-left: 10%;
+        max-width: 80% !important;
       }
 
-      p {
-        position: relative;
-        left: 100px;
-        bottom: 50px;
+      div.description {
+        vertical-align: top;
+        
+        p {
+          margin: 0;
+        }
+      }
         
       }
+
+      div.school-3 {
+        margin-bottom: 5%;
+      }
     }
-  }
+  
 
   section.personal {
     font-size: x-large;
     
 
     div.personal {
-      clear:left;
+      div {
+        display:inline-block;
+        width: 45%;
+      }
 
       img {
-        width: 30% !important;
-        float: left;
+        margin-left: 10%;
+        max-width: 80% !important;
       }
-
-      p {
-        position: relative;
-        left: 100px;
-        bottom: 50px;
-      }
-
+      
       div.fish-photos {
-        float: left;
-        width: 50%;
-        margin-left: 1%;
-        margin-right: -15%;
+        display: inline-block;
+        padding-left: 5%;
+        
+        img {
+          margin :0;
+          width: 45%;
+        }
       }
 
+      div.description {
+        vertical-align: top;
+        
+        p {
+          margin: 0;
+        }
+      }
 
+      div.personal-3 {
+        margin-bottom: 5%;
+      }
+      
   
     }
 
@@ -641,7 +661,6 @@ div.project-text {
     margin-right: 0;
     text-align: center;
   }
-
 
 
 }
