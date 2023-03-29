@@ -285,7 +285,7 @@ section.personal div.personal-3 img {
 }
 
 .slideshow-container {
-  max-width: 100%;
+  width: 100%;
   position: relative;
   margin: auto;
 }
@@ -293,7 +293,11 @@ section.personal div.personal-3 img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  width: auto;
+  height: auto;
+  margin: auto;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -514,8 +518,7 @@ div.project-text div.technologies-used {
   }
   .carousel div.mySlides img {
     width: auto;
-    height: auto;
-    max-width: 60%;
+    height: 500px;
     margin-left: 20%;
   }
   .carousel div.mySlides .text {
