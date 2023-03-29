@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="'brand-icon">
+                <img src="../assets//icons/LT-logos_transparent 1.svg" alt="">
+            </div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../projects.html">My Work</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="project-title">
+        <h1>Designing Energy Systems Project</h1>
+    </div>
+
+    <div class="project-photo">
+        <a href="https://docs.google.com/document/d/1Fmni4yJXA8mvQ9hVwDFf9qXMyNHRDCViTjFNFELb6RA/edit"><img src="../assets/images/projects/7.jpg" alt=""></a>
+    </div>
+
+    <div class="project-text">
+        <div class="project-description">
+            <h1>Project Description</h1>
+            <p> For our Designing Energy Systems Course in Term 3 of SUTD, we decided to create a solar-powered soldering iron for our project.
+                For this project, I had exposure to using various tools for data analysis purposes to measure the real world performance of the 
+                solar panels. Furthermore, I used Fusion360 to create the shell that would contain our all-in-one solution. 
+            </p>
+        </div>
+        <div class="technologies-used">
+            <h1>Technologies Used</h1>
+            <p> Fusion360 </p>
+        </div>
+    </div>
+
+
+</body>

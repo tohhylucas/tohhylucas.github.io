@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="'brand-icon">
+                <img src="../assets//icons/LT-logos_transparent 1.svg" alt="">
+            </div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../projects.html">My Work</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="project-title">
+        <h1>Data Driven World Machine Learning Project</h1>
+    </div>
+
+    <div class="project-photo">
+        <a href="https://www.youtube.com/watch?v=6vig5opXJuop"><img src="../assets/images/projects/6.jpg" alt=""></a>
+    </div>
+
+    <div class="project-text">
+        <div class="project-description">
+            <h1>Project Description</h1>
+            <p>This was our Design Thinking Project for our Data Driven World module taken in SUTD in Term 3. The objective of this project is to 
+                conduct an analysis of the various factors that influence the percentage of undernourished individuals in less developed countries.
+                After identifying these various factors, our goal was to come up with a multi-linear regression model to predict the percentage of
+                undernourishment using chosen factors as inputs. The GitHub repo link can be found here : <a href="https://github.com/tohhylucas/DDW2D">Repo Link</a>
+
+            </p>
+        </div>
+        <div class="technologies-used">
+            <h1>Technologies Used</h1>
+            <p> Python, Numpy, MatPlotLib, Scikit-Learn </p>
+        </div>
+    </div>
+
+
+</body>
