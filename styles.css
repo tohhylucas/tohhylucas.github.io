@@ -519,7 +519,8 @@ div.project-text div.technologies-used {
   .carousel div.mySlides img {
     width: auto;
     height: 500px;
-    margin-left: 20%;
+    display: block;
+    margin: auto;
   }
   .carousel div.mySlides .text {
     font-size: larger;
